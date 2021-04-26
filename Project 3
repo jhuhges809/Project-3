@@ -1,0 +1,19 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(char GPU, char CPU, char Cores, char choice, char Score, char Performance, char Multiplier)
+{
+	int num_comp;
+	cout <<"Computer Hardware Graphics Quality Recommendation Tool" << endl;
+	cout <<"How many computers are being processed: ";
+	while(!(cin >> num_comp) || (num_comp < 0))
+	{
+		cout <<"please enter in a number greater than 0: ";
+	}
+	for(int i = 0; i < num_comp; i++)
+	{
+  
+  }
+  return 0;
+  }
